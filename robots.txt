@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rabbit-world.github.io/lively-jekyll-website/sitemap.xml

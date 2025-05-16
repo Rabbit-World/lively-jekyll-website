@@ -1,0 +1,47 @@
+<!-- navigation -->
+<div class="nav">
+  <div>
+    <img src="{{ '/assets/logo.webp' | relative_url }}" alt="lively wallpaper logo" />
+    <h4>{% if page.lang == 'it' %}{{ site.data.languages.it.nav.home }}{% else %}{{ site.data.languages.en.nav.home }}{% endif %}</h4>
+  </div>
+  <div>
+    <ul>
+      <li>
+        <a text="{% if page.lang == 'it' %}{{ site.data.languages.it.nav.home }}{% else %}{{ site.data.languages.en.nav.home }}{% endif %}" class="active">{% if page.lang == 'it' %}{{ site.data.languages.it.nav.home }}{% else %}{{ site.data.languages.en.nav.home }}{% endif %}</a>
+      </li>
+      <li>
+        <a text="{% if page.lang == 'it' %}{{ site.data.languages.it.nav.magic }}{% else %}{{ site.data.languages.en.nav.magic }}{% endif %}" onClick="scrollToElement('page-home');">{% if page.lang == 'it' %}{{ site.data.languages.it.nav.magic }}{% else %}{{ site.data.languages.en.nav.magic }}{% endif %}</a>
+      </li>
+      <li>
+        <a text="{% if page.lang == 'it' %}{{ site.data.languages.it.nav.features }}{% else %}{{ site.data.languages.en.nav.features }}{% endif %}" onClick="scrollToElement('page-features');">{% if page.lang == 'it' %}{{ site.data.languages.it.nav.features }}{% else %}{{ site.data.languages.en.nav.features }}{% endif %}</a>
+      </li>
+      <li>
+        <a text="{% if page.lang == 'it' %}{{ site.data.languages.it.nav.gallery }}{% else %}{{ site.data.languages.en.nav.gallery }}{% endif %}" onClick="scrollToElement('page-gallery');">{% if page.lang == 'it' %}{{ site.data.languages.it.nav.gallery }}{% else %}{{ site.data.languages.en.nav.gallery }}{% endif %}</a>
+      </li>
+      <li>
+        <a text="{% if page.lang == 'it' %}{{ site.data.languages.it.nav.download }}{% else %}{{ site.data.languages.en.nav.download }}{% endif %}" onClick="scrollToElement('page-download');">{% if page.lang == 'it' %}{{ site.data.languages.it.nav.download }}{% else %}{{ site.data.languages.en.nav.download }}{% endif %}</a>
+      </li>
+      <li>
+        <a
+          text="{% if page.lang == 'it' %}{{ site.data.languages.it.nav.docs }}{% else %}{{ site.data.languages.en.nav.docs }}{% endif %}"
+          href="https://github.com/rocksdanister/lively/wiki/Getting-Started"
+          style="text-decoration: underline"
+          target="_blank"
+          >{% if page.lang == 'it' %}{{ site.data.languages.it.nav.docs }}{% else %}{{ site.data.languages.en.nav.docs }}{% endif %}</a
+        >
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- Language Switcher -->
+<div class="language-switcher">
+  <ul>
+    <li>
+      <a href="{{ '/en/' | relative_url }}" {% if page.lang == 'en' %}class="active"{% endif %}>EN</a>
+    </li>
+    <li>
+      <a href="{{ '/it/' | relative_url }}" {% if page.lang == 'it' %}class="active"{% endif %}>IT</a>
+    </li>
+  </ul>
+</div>

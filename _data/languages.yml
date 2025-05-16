@@ -1,0 +1,181 @@
+# English translations
+en:
+  site:
+    title: "Lively Wallpaper by rocksdanister"
+    description: "Lively Wallpaper is a free and open-source animated desktop wallpaper and screensaver software."
+  nav:
+    home: "Home"
+    magic: "Magic"
+    features: "Features"
+    gallery: "Gallery"
+    download: "Download"
+    docs: "Docs"
+  home:
+    title: "LIVELY WALLPAPER"
+    subtitle: "Animated desktop wallpapers, bring your desktop to life!"
+    project: "Project"
+    download_button: "DOWNLOAD"
+  magic:
+    title: "It's Magic"
+    subtitle: "Anything is possible, go on try it.."
+    size: "Size"
+    dropdown: "Dropdown"
+    link1: "Link 1"
+    link2: "Link 2"
+    link3: "Link 3"
+    click_me: "Click Me"
+    check: "Check"
+  rain_controls:
+    intensity: "Intensity"
+    size: "Size"
+    speed: "Speed"
+    change_background: "Change background"
+    mountain: "Moutain.jpg"
+    forest: "Forest.jpg"
+    custom: "Custom"
+    post_processing: "Post processing"
+  snow_controls:
+    depth: "Depth"
+    width: "Width"
+    speed: "Speed"
+    change_background: "Change background"
+    trees: "Trees.jpg"
+    landscape: "Landscape.jpg"
+    custom: "Custom"
+    post_processing: "Post processing"
+  synthwave_controls:
+    draw: "Draw"
+    plane: "Plane"
+    sun: "Sun"
+    crt: "CRT"
+  clouds_controls:
+    scale: "Scale"
+    speed: "Speed"
+    density_color: "Density Color"
+    fog_color: "Fog Color"
+    fog: "Fog"
+  features:
+    title: "Features"
+    subtitle: "Ultrawide or multiple monitors? no problem.."
+    open_source:
+      title: "Open Source"
+      description: "Free and Open Source Software (FOSS.) Made by the community for the community <3"
+    performance:
+      title: "Performance"
+      description: "Wallpaper pauses (~0% usage) when running fullscreen games or application"
+    modern:
+      title: "Modern & Friendly"
+      description: "Latest Windows 11 design and friendly user experience"
+    tools:
+      title: "Tools"
+      description: "Create music visualizers, widgets and much more using rich wallpaper development tools"
+    more: "Check out all the features.."
+  gallery:
+    title: "Gallery"
+    subtitle: "Here are some cool desktops.."
+    fluid: "Fluid Simulation"
+    music: "Music TV"
+    wave: "The Great Wave"
+    system: "Simple System"
+    synthwave: "Synthwave"
+  download:
+    title: "Ready to get started?"
+    windows: "Windows 64-bit"
+    installer: "Installer"
+    whats_new: "See what's new.."
+  footer:
+    name: "Dani John"
+    email: "awoo.git@gmail.com"
+    website: "rocksdanister.com"
+    attribution: "Rocksdanister | Attribution"
+
+# Italian translations
+it:
+  site:
+    title: "Lively Wallpaper di rocksdanister"
+    description: "Lively Wallpaper è un software gratuito e open-source per sfondi animati e screensaver."
+  nav:
+    home: "Home"
+    magic: "Magia"
+    features: "Funzionalità"
+    gallery: "Galleria"
+    download: "Download"
+    docs: "Documenti"
+  home:
+    title: "LIVELY WALLPAPER"
+    subtitle: "Sfondi desktop animati, dai vita al tuo desktop!"
+    project: "Progetto"
+    download_button: "SCARICA"
+  magic:
+    title: "È Magia"
+    subtitle: "Tutto è possibile, provaci.."
+    size: "Dimensione"
+    dropdown: "Menu a discesa"
+    link1: "Link 1"
+    link2: "Link 2"
+    link3: "Link 3"
+    click_me: "Cliccami"
+    check: "Seleziona"
+  rain_controls:
+    intensity: "Intensità"
+    size: "Dimensione"
+    speed: "Velocità"
+    change_background: "Cambia sfondo"
+    mountain: "Montagna.jpg"
+    forest: "Foresta.jpg"
+    custom: "Personalizzato"
+    post_processing: "Post processing"
+  snow_controls:
+    depth: "Profondità"
+    width: "Larghezza"
+    speed: "Velocità"
+    change_background: "Cambia sfondo"
+    trees: "Alberi.jpg"
+    landscape: "Paesaggio.jpg"
+    custom: "Personalizzato"
+    post_processing: "Post processing"
+  synthwave_controls:
+    draw: "Disegna"
+    plane: "Piano"
+    sun: "Sole"
+    crt: "CRT"
+  clouds_controls:
+    scale: "Scala"
+    speed: "Velocità"
+    density_color: "Colore Densità"
+    fog_color: "Colore Nebbia"
+    fog: "Nebbia"
+  features:
+    title: "Funzionalità"
+    subtitle: "Monitor ultrawide o multipli? nessun problema.."
+    open_source:
+      title: "Open Source"
+      description: "Software Libero e Open Source (FOSS). Creato dalla community per la community <3"
+    performance:
+      title: "Prestazioni"
+      description: "Lo sfondo si mette in pausa (~0% utilizzo) quando si eseguono giochi o applicazioni a schermo intero"
+    modern:
+      title: "Moderno e Amichevole"
+      description: "Design di Windows 11 e un'esperienza utente amichevole"
+    tools:
+      title: "Strumenti"
+      description: "Crea visualizzatori musicali, widget e molto altro utilizzando ricchi strumenti di sviluppo per sfondi"
+    more: "Scopri tutte le funzionalità.."
+  gallery:
+    title: "Galleria"
+    subtitle: "Ecco alcuni desktop interessanti.."
+    fluid: "Simulazione Fluida"
+    music: "TV Musicale"
+    wave: "La Grande Onda"
+    system: "Sistema Semplice"
+    synthwave: "Synthwave"
+  download:
+    title: "Pronto per iniziare?"
+    windows: "Windows 64-bit"
+    installer: "Installer"
+    whats_new: "Scopri le novità.."
+  footer:
+    name: "Dani John"
+    email: "awoo.git@gmail.com"
+    website: "rocksdanister.com"
+    attribution: "Rocksdanister | Attribuzione"

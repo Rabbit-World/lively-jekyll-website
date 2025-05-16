@@ -1,0 +1,56 @@
+/* Language Switcher Styles */
+.language-switcher {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 100;
+}
+
+.language-switcher ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+.language-switcher li {
+  margin: 0 5px;
+}
+
+.language-switcher a {
+  display: block;
+  padding: 5px 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.language-switcher a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.language-switcher a.active {
+  background-color: var(--color2);
+  border-color: var(--color2);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .language-switcher {
+    top: 10px;
+    right: 10px;
+  }
+  
+  .language-switcher a {
+    padding: 3px 8px;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,12 @@
+<div id="footer">
+  <div>
+    <img alt="github profile" src="https://avatars.githubusercontent.com/rocksdanister" class="avatar" />
+    <h4>{% if page.lang == 'it' %}{{ site.data.languages.it.footer.name }}{% else %}{{ site.data.languages.en.footer.name }}{% endif %}</h4>
+    <a href="mailto: {% if page.lang == 'it' %}{{ site.data.languages.it.footer.email }}{% else %}{{ site.data.languages.en.footer.email }}{% endif %}">{% if page.lang == 'it' %}{{ site.data.languages.it.footer.email }}{% else %}{{ site.data.languages.en.footer.email }}{% endif %}</a>
+    <br />
+    <a href="https://www.rocksdanister.com/" target="_blank">{% if page.lang == 'it' %}{{ site.data.languages.it.footer.website }}{% else %}{{ site.data.languages.en.footer.website }}{% endif %}</a>
+  </div>
+  <div id="footer-attribution">
+    <a>{% if page.lang == 'it' %}{{ site.data.languages.it.footer.attribution }}{% else %}{{ site.data.languages.en.footer.attribution }}{% endif %}</a>
+  </div>
+</div>
