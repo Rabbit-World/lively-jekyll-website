@@ -20,7 +20,7 @@ This is a Jekyll template for the Lively Wallpaper website with multilingual sup
 
 2. Install dependencies:
    ```
-   cd lively-jekyll-static
+   cd lively-jekyll-website
    bundle install
    ```
 
